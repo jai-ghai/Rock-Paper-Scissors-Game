@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+    <div class="container-hurry">
+        <div align="center" style=" width: 100%; height: 100%">
+    
+            <div style=" width:70%; height:70%">
+                <img src="./assets/Group 5.png" alt="">
+                <div style=" width:70%; height:70%; position: absolute;
+                top: 153px;">
+                    <img src="./assets/Vector.png" alt="">
+                    <h1>HURRY !!</h1>
+                    <H2>YOU WON THE GAME</H2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="center-box hurry-container">
+      <button class="again-btn"><a class="btn-link" href="./index.html">PLAY AGAIN</a></button>
+    </div>
+
+<br><br><br><br><br><br>
+    
+   <!-- footer -->
+<div class="footer">
+    <div class="footer-sec">
+        <button class="btn" onclick="openModal()">RULES</button>
+    </div>
+  </div>
+  </div>
+  <div id="myModal" class="modal-container">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+     
+        <img src="./assets/Group 4.png" alt="">
+    </div>
+      <script>
+          function openModal() {
+            document.getElementById("myModal").style.display = "block";
+          }
+      
+          function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+          }
+        </script>
+
+<script src="script.js"></script>
+  </body>
+  </html>

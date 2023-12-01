@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header -->
+    <div class="container">
+      <div class="heading">
+        <div>ROCK</div>
+        <div>PAPER</div>
+        <div>SCISSORS</div>
+      </div>
+      <div id="scores" class="items">
+        <div class="box">
+          COMPUTER SCORE
+          <div id="computerScore" class="score">0</div>
+        </div>
+        <div class="box">
+          YOUR SCORE
+          <div id="userScore" class="score">0</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- main -->
+    <div class="menu-container extra">
+      <div class="circle-container">
+        <div class="outer-circle circle-color1">
+          <button class="inner-circle">
+            <img src="./assets/icons8-fist-67 1.svg" alt="" />
+          </button>
+        </div>
+      </div>
+
+      <div class="center-box">
+        <div class="tag-line">YOU WIN</div>
+        <div class="tag-line2">AGAINST PC</div>
+        <button class="again-btn"><a class="btn-link" href="./index.html">PLAY AGAIN</a></button>
+      </div>
+
+      <div class="circle-container">
+        <div class="outer-circle circle-color2">
+          <button class="inner-circle">
+            <img src="./assets/17911 1.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+          <!-- footer -->
+<div class="footer">
+    <div class="footer-sec">
+        <button class="btn" onclick="openModal()">RULES</button>
+        <button class="btn btn-next"> <a href="./hurray-page.html">NEXT</a></button>
+    </div>
+  </div>
+  </div>
+  <div id="myModal" class="modal-container">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+     
+        <img src="./assets/Group 4.png" alt="">
+    </div>
+
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>
